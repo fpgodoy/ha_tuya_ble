@@ -300,6 +300,14 @@ devices_database: dict[str, TuyaBLECategoryInfo] = {
             ),
         },
     ),
+    "sfkzq": TuyaBLECategoryInfo(
+        products={
+            "bh9xhshd":   # device product_id
+            TuyaBLEProductInfo(
+                name="Bluetooth single channel controller",
+            ),
+        },
+    ),
 }
 
 

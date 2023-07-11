@@ -306,6 +306,13 @@ mapping: dict[str, TuyaBLECategorySensorMapping] = {
             ],
         },
     ),
+    "sfkzq": TuyaBLECategorySensorMapping(
+        products={
+            "bh9xhshd": [  # Bluetooth single channel controller
+                TuyaBLEBatteryMapping(dp_id=3),
+            ],
+        },
+    ),
 }
 
 

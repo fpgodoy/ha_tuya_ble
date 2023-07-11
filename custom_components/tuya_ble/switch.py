@@ -328,6 +328,19 @@ mapping: dict[str, TuyaBLECategorySwitchMapping] = {
             ],
         },
     ),
+    "sfkzq": TuyaBLECategorySwitchMapping(
+        products={
+            "bh9xhshd": [  # Bluetooth single channel controller
+                TuyaBLESwitchMapping(
+                    dp_id=101,
+                    description=SwitchEntityDescription(
+                        key="water_valve",
+                        entity_registry_enabled_default=True,
+                    ),
+                ),
+            ],
+        },
+    ),
 }
 
 
